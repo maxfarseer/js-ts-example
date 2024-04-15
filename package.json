@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "jest --testMatch '**/*.spec.js'",
+    "test": "jest --testMatch '**/*.spec.?s'",
     "start": "webpack serve --open"
   },
   "keywords": [],
