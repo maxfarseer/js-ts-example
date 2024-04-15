@@ -1,8 +1,6 @@
 import { pow } from "./pow";
 import { sum } from "./sum";
 
-console.log(sum); //TODO: sum is undefined
-
 const mathObject = {
   pow,
   sum,
