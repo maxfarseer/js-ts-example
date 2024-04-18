@@ -6,15 +6,29 @@
   "scripts": {
     "build": "webpack",
     "test": "jest --testMatch '**/*.spec.?s'",
+    "test:ava": "ava",
     "start": "webpack serve --open"
+  },
+  "ava": {
+    "timeout": "20s",
+    "concurrency": 5,
+    "require": [
+      "@babel/register"
+    ],
+    "files": [
+      "**/*.ava.js"
+    ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
     "@babel/preset-typescript": "^7.24.1",
+    "@babel/register": "^7.23.7",
     "@types/jest": "^29.5.12",
+    "ava": "^6.1.2",
     "http-server": "^14.1.1",
     "jest": "^29.7.0",
     "ts-loader": "^9.5.1",
