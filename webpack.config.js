@@ -17,11 +17,11 @@ module.exports = {
   },
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "dev-assets"),
+    path: path.resolve(__dirname, "build"),
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "dev-assets"),
+      directory: path.join(__dirname, "build"),
     },
     compress: true,
     port: 9000,

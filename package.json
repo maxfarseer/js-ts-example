@@ -20,10 +20,10 @@
       "**/*.ava.ts"
     ],
     "typescript": {
+      "compile": "tsc",
       "rewritePaths": {
-        "src/": "dev-assets/"
-      },
-      "compile": false
+        "source/": "build/"
+      }
     }
   },
   "keywords": [],

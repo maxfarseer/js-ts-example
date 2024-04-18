@@ -1,4 +1,6 @@
-const test = require("ava");
+// const test = require("ava");
+// const { pow } = require("./pow");
+import test from "ava";
 import { pow } from "./pow";
 
 test("pow should return the correct result when the exponent is positive", (t) => {
