@@ -1,4 +1,4 @@
-import { pow } from "../src/pow";
+import { pow } from "./pow";
 
 describe("pow", () => {
   it("should return the correct result when the exponent is positive", () => {
